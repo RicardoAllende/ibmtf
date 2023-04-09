@@ -49,11 +49,11 @@ export const ClassCard = ({ lesson }: classCardProps) => (
     </div>
     <div className="col-span-3 flex flex-col justify-center p-2 leading-normal">
       <div
-        className={`${breakPointDesktop}:flex grid-cols-2 gap-1 items-center justify-center my-2`}
+        className={`${breakPointDesktop}:flex grid-cols-2 gap-1 items-center my-2`}
       >
         {lesson.incompletedUrl && (
           <DownloadButton
-            title="Descargar"
+            title="Para contestar"
             icon="download_for_offline"
             url={lesson.incompletedUrl}
           />

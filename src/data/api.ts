@@ -18,7 +18,7 @@ export const getAllLessons = (): lessonI[] => [
       "https://drive.google.com/uc?export=download&id=1VksMHVestS8elUfN1wKo7I-Ya7PEonyC",
     originalIncompletedUrl:
       "https://docs.google.com/document/d/1VksMHVestS8elUfN1wKo7I-Ya7PEonyC/edit?usp=share_link&ouid=100689299250752769999&rtpof=true&sd=true",
-    completedUrl: "https://docs.google.com/document/d/1VksMHVestS8elUfN1wKo7I-Ya7PEonyC/edit?usp=share_link&ouid=100689299250752769999&rtpof=true&sd=true",
+    completedUrl: "",
     verseToMemorize: "-",
     img: "https://iglesiabautistalacasadedios.files.wordpress.com/2012/07/vol_05.jpg",
     videos: [],
@@ -53,7 +53,7 @@ export const getAllLessons = (): lessonI[] => [
       "https://docs.google.com/document/d/1JkT1oDufETlX0qCVZSDhLDl1Mt_EOzTE/edit?usp=share_link&ouid=100689299250752769999&rtpof=true&sd=true",
     completedUrl: "",
     verseToMemorize: "Hebreos 10:25",
-    img: "https://scontent.fmex1-6.fna.fbcdn.net/v/t39.30808-6/309540346_467238358770539_5351012300385175077_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2UMw9_H2z7YAX_5GWMt&_nc_ht=scontent.fmex1-6.fna&oh=00_AfBHEShjKnIXQTQ27rrntjoVwbcnWIAzXMXciJu5NEHCzg&oe=6431FAB5",
+    img: "/ibmtf.jpeg",
     videos: [],
   },
   {
@@ -101,5 +101,16 @@ export const getAllLessons = (): lessonI[] => [
     videos: [
       // 'https://www.facebook.com/100079818525540/videos/242862328181998/?mibextid=3uQiM7JGkdL90cBO"',
     ],
+  },
+  {
+    title: "Lección 8. El Espíritu Santo",
+    incompletedUrl:
+      "https://drive.google.com/uc?export=download&id=119HrjCzt4tIs0eEEQnH8j9dZda_Ae8OC",
+    originalIncompletedUrl:
+      "https://docs.google.com/document/d/119HrjCzt4tIs0eEEQnH8j9dZda_Ae8OC/edit?usp=share_link&ouid=100689299250752769999&rtpof=true&sd=true",
+    completedUrl: "",
+    verseToMemorize: `Efesios 5.18`,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRovAuFeEQ3JHzJWtbdGQUPcYAtg5WeMPOTOA&usqp=CAU",
+    videos: [],
   },
 ];
