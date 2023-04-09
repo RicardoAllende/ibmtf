@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="container mx-auto">
       <div className="flex justify-center items-center m-4">
-        <img src="/ibmtf.jpeg" alt="IBMTF" className="w-12 rounded-full mr-2" />
+        <img src="ibmtf.jpeg" alt="IBMTF" className="w-12 rounded-full mr-2" />
         <h1 className="text-center text-2xl text-white font-bold">
           Iglesia bautista misionera torre fuerte
         </h1>

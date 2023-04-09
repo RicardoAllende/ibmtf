@@ -53,7 +53,7 @@ export const getAllLessons = (): lessonI[] => [
       "https://docs.google.com/document/d/1JkT1oDufETlX0qCVZSDhLDl1Mt_EOzTE/edit?usp=share_link&ouid=100689299250752769999&rtpof=true&sd=true",
     completedUrl: "",
     verseToMemorize: "Hebreos 10:25",
-    img: "/ibmtf.jpeg",
+    img: "ibmtf.jpeg",
     videos: [],
   },
   {
