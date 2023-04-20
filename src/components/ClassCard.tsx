@@ -1,5 +1,6 @@
 import React from "react";
 import { lessonI } from "../models/lesson";
+import DownloadIcon from "./DownloadIcon";
 
 interface classCardProps {
   lesson: lessonI;
@@ -7,14 +8,12 @@ interface classCardProps {
 
 interface DownloadButtonProps {
   title: string;
-  icon?: string;
   url: string;
   className?: string;
 }
 
 const DownloadButton = ({
   title,
-  icon,
   url,
   className = "",
 }: DownloadButtonProps) => (
@@ -22,7 +21,9 @@ const DownloadButton = ({
     <button
       className={`p-2 text-white rounded-lg shadow-md bg-blue-word hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 flex items-center ${className}`}
     >
-      <span className="material-icons mr-1">{icon}</span>
+      <span className=" mr-1">
+        <DownloadIcon />
+      </span>
       {title}
     </button>
   </a>
@@ -52,16 +53,11 @@ export const ClassCard = ({ lesson }: classCardProps) => (
         className={`${breakPointDesktop}:flex grid-cols-2 gap-1 items-center my-2`}
       >
         {lesson.incompletedUrl && (
-          <DownloadButton
-            title="Para contestar"
-            icon="download_for_offline"
-            url={lesson.incompletedUrl}
-          />
+          <DownloadButton title="Para contestar" url={lesson.incompletedUrl} />
         )}
         {lesson.completedUrl && (
           <DownloadButton
             title="Contestada"
-            icon="download_for_offline"
             url={lesson.completedUrl}
             className={`${breakPointDesktop}:mt-0 mt-2`}
           />

@@ -79,7 +79,7 @@ export const getAllLessons = (): lessonI[] => [
     videos: [],
   },
   {
-    title: "Lección 6. LA FAMILIA (EL HOGAR CRISTIANO)",
+    title: "Lección 6. La familia (el hogar cristiano)",
     incompletedUrl:
       "https://drive.google.com/uc?export=download&id=1ID8d7o1BOAGp-hKbLQ7dLuPasgxTE8sO",
     originalIncompletedUrl:
@@ -90,7 +90,7 @@ export const getAllLessons = (): lessonI[] => [
     videos: [],
   },
   {
-    title: "Lección 7. DIOS",
+    title: "Lección 7. Dios",
     incompletedUrl:
       "https://drive.google.com/uc?export=download&id=1n-71lYE4gyap1bGhyECsN0I2bftB0Lo6",
     originalIncompletedUrl:
@@ -111,6 +111,17 @@ export const getAllLessons = (): lessonI[] => [
     completedUrl: "",
     verseToMemorize: `Efesios 5.18`,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRovAuFeEQ3JHzJWtbdGQUPcYAtg5WeMPOTOA&usqp=CAU",
+    videos: [],
+  },
+  {
+    title: "Lección 9. La inmersión (el bautismo)",
+    incompletedUrl:
+      "https://drive.google.com/uc?export=download&id=10rQSGrGFxWU0LXDIBcE_h32gW_Evdkin",
+    originalIncompletedUrl:
+      "https://docs.google.com/document/d/10rQSGrGFxWU0LXDIBcE_h32gW_Evdkin/edit?usp=sharing&ouid=100689299250752769999&rtpof=true&sd=true",
+    completedUrl: "",
+    verseToMemorize: `Hechos 2:41`,
+    img: "https://sallomo.es/wp-content/uploads/2016/02/el-bautismo-de-jesus.jpg",
     videos: [],
   },
 ];
