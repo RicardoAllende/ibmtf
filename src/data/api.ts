@@ -135,4 +135,15 @@ export const getAllLessons = (): lessonI[] => [
     img: "https://m.media-amazon.com/images/I/41QwH8vmuUL._AC_UF1000,1000_QL80_.jpg",
     videos: [],
   },
+  {
+    title: "Lección 11. Parentezco",
+    incompletedUrl:
+      "https://drive.google.com/uc?export=download&id=1F0ey2cc6Z01sZfL1oXZ3g5S9yY5m5oJC",
+    // originalIncompletedUrl:
+    // "https://docs.google.com/document/d/1F0ey2cc6Z01sZfL1oXZ3g5S9yY5m5oJC/edit?usp=share_link&ouid=100689299250752769999&rtpof=true&sd=true",
+    completedUrl: "",
+    verseToMemorize: ``,
+    img: "ibmtf.jpeg",
+    videos: [],
+  },
 ];
