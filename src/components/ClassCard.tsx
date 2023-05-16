@@ -79,6 +79,14 @@ export const ClassCard = ({ lesson }: classCardProps) => (
           ))}
         </>
       )}
+      {lesson?.externalDocuments?.length && (
+        <>
+          <h3 className="text-white pb-2">Documentos adicionales:</h3>
+          {lesson?.externalDocuments?.map((doc) => (
+            <DownloadButton title={doc.name} url={doc.link} />
+          ))}
+        </>
+      )}
       {lesson.verseToMemorize && (
         <p className="font-normal text-white">
           Memorización: <br /> <span>{lesson.verseToMemorize}</span>

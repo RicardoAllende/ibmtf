@@ -1,3 +1,8 @@
+interface externalDocument {
+  name: string;
+  link: string;
+}
+
 export interface lessonI {
   title: string;
   incompletedUrl?: string;
@@ -6,4 +11,5 @@ export interface lessonI {
   verseToMemorize?: string;
   img: string;
   videos: string[];
+  externalDocuments?: externalDocument[];
 }

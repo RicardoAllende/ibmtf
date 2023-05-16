@@ -145,5 +145,23 @@ export const getAllLessons = (): lessonI[] => [
     verseToMemorize: ``,
     img: "ibmtf.jpeg",
     videos: [],
+    externalDocuments: [
+      {
+        name: "El rastro de la sangre",
+        link: "https://drive.google.com/uc?export=download&id=1Z4EQAl5ROUPVQph84yc748xBPWk1idZq",
+        // link: "https://drive.google.com/file/d/1Z4EQAl5ROUPVQph84yc748xBPWk1idZq/view?usp=sharing"
+      },
+    ],
+  },
+  {
+    title: "Lección 12. La cena del Señor",
+    incompletedUrl:
+      "https://drive.google.com/uc?export=download&id=1yTjZQhNw80R7CgpU7-GdETt6XJdu_Ry9",
+    // originalIncompletedUrl:
+    //   "https://docs.google.com/document/d/1yTjZQhNw80R7CgpU7-GdETt6XJdu_Ry9/edit?usp=sharing&ouid=100689299250752769999&rtpof=true&sd=true",
+    completedUrl: "",
+    verseToMemorize: "1 Corintios 11:26",
+    img: "https://1.bp.blogspot.com/-I1Co1QQIqZk/UEsjLL3wdRI/AAAAAAAABCM/UGjls3nDCzg/s1600/pan-y-vino22%5B1%5D.jpg",
+    videos: [],
   },
 ];
