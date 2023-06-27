@@ -164,4 +164,38 @@ export const getAllLessons = (): lessonI[] => [
     img: "https://1.bp.blogspot.com/-I1Co1QQIqZk/UEsjLL3wdRI/AAAAAAAABCM/UGjls3nDCzg/s1600/pan-y-vino22%5B1%5D.jpg",
     videos: [],
   },
+  {
+    title: "Lección 13. Las misiones",
+    incompletedUrl:
+      "https://drive.google.com/uc?export=download&id=150014c1urdiGUHUGYVG5H36iQiRTAquT",
+    // originalIncompletedUrl:
+    //   "https://docs.google.com/document/d/150014c1urdiGUHUGYVG5H36iQiRTAquT/edit?usp=sharing&ouid=100689299250752769999&rtpof=true&sd=true",
+    completedUrl: "",
+    verseToMemorize: "Marcos 16:15",
+    img: "https://i.pinimg.com/736x/53/dd/e8/53dde86bb4648df67a990f07be07fa6b--bible-verses-spanish.jpg",
+    videos: [],
+  },
+
+  {
+    title: "Lección 14. El nuevo nacimiento",
+    incompletedUrl:
+      "https://drive.google.com/uc?export=download&id=1UTlI4xy7A8-Rf_zb_S8eoaF2kQ0r89Y9",
+    // originalIncompletedUrl:
+    //   "https://docs.google.com/document/d/1UTlI4xy7A8-Rf_zb_S8eoaF2kQ0r89Y9/edit?usp=drive_link&ouid=100689299250752769999&rtpof=true&sd=true",
+    completedUrl: "",
+    verseToMemorize: "Juan 3:3",
+    img: "https://sallomo.es/wp-content/uploads/2016/02/el-bautismo-de-jesus.jpg",
+    videos: [],
+  },
+  {
+    title: "Lección 15. La obediencia",
+    incompletedUrl:
+      "https://drive.google.com/uc?export=download&id=1zclHGDG7NZuz5tQDfMQO_7vJHH-m0MHI",
+    // originalIncompletedUrl:
+    //   "https://docs.google.com/document/d/1zclHGDG7NZuz5tQDfMQO_7vJHH-m0MHI/edit?usp=sharing&ouid=100689299250752769999&rtpof=true&sd=true",
+    completedUrl: "",
+    verseToMemorize: "2 Corintios 10:5",
+    img: "https://s.bibliaon.com/es/imagenes/juan-14-15-gde-2-cke.jpg",
+    videos: [],
+  },
 ];
