@@ -1,9 +1,15 @@
-import { ClassCard } from "./components/ClassCard";
+import { useEffect, useState } from "react";
 import "material-icons/iconfont/material-icons.css";
-import { getAllLessons } from "./data/api";
+
+import { ClassCard } from "./components/ClassCard";
+import { simulateGetAllLessons } from "./data/api";
+import { lessonI } from "./models/lesson";
 
 function App() {
-  const lessons = getAllLessons();
+  const [lessons, setLessons] = useState<lessonI[]>([]);
+  useEffect(() => {
+    setLessons(simulateGetAllLessons());
+  }, []);
 
   return (
     <div className="container mx-auto">
