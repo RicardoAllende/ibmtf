@@ -254,4 +254,26 @@ export const simulateGetAllLessons = (): lessonI[] =>
       img: "https://files.adventistas.org/pastor.adventistas.org/es/2020/09/07-SET-ESP.jpg",
       videos: [],
     },
+    {
+      title: "Lección 21 La unidad",
+      incompletedUrl:
+        "https://drive.google.com/uc?export=download&id=1vvYDvtz7KTl4HeI7NxA-eCODVcXAhv5Y",
+      // originalIncompletedUrl:
+      //   "https://docs.google.com/document/d/1vvYDvtz7KTl4HeI7NxA-eCODVcXAhv5Y/edit?usp=sharing&ouid=100689299250752769999&rtpof=true&sd=true",
+      completedUrl: "",
+      verseToMemorize: "",
+      img: "https://www.10minconjesus.net/wp-content/uploads/2021/01/UNIDAD-EN-LA-IGLESIA.jpg",
+      videos: [],
+    },
+    {
+      title: "Lección 22 La victoria",
+      incompletedUrl:
+        "https://drive.google.com/uc?export=download&id=1t04XUVaDCir31t7Hne0AC2WQrNAgxTX2",
+      // originalIncompletedUrl:
+      //   "https://docs.google.com/document/d/1t04XUVaDCir31t7Hne0AC2WQrNAgxTX2/edit?usp=sharing&ouid=100689299250752769999&rtpof=true&sd=true",
+      completedUrl: "",
+      verseToMemorize: "",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5TlCFWnzntGELAue9VdR_UZ_oE-glGITPpw&usqp=CAU",
+      videos: [],
+    },
   ].reverse();
